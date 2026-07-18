@@ -107,3 +107,7 @@ let student = studentList.find(student => student.id === "S002");
 console.log(student);
 */
 
+fetch("/customer.json").then(res => res.json()).then(data=>{
+    console.log(data);
+})
+
