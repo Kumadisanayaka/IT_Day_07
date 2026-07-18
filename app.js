@@ -14,11 +14,11 @@ const products = [{ name: "bun", isStock: false },
 { name: "bread", isStock: false },
 { name: "fish bun", isStock: true },];
 
-let inStockProduct = products.filter(function(product){
+let inStockProduct = products.filter(function (product) {
     return productFilter(product);
 })
 
-function productFilter(product){
+function productFilter(product) {
     return product.isStock == true;
 }
 
@@ -92,4 +92,17 @@ let newSalary = employeeSalary.map(salary => salary * 2);
 console.log(newSalary);
 
 */
+
+//find student
+
+const studentList = [
+    { id: "S001", name: "Pathum" },
+    { id: "S002", name: "Kamal" },
+    { id: "S003", name: "Jagath" },
+    { id: "S004", name: "Samitha" }];
+
+let student = studentList.find(student => student.id==="S002");
+
+console.log(student);
+
 
