@@ -71,4 +71,11 @@ console.log(sample("Hi2"));
 
 //for Each Loop
 
-products.forEach(product => console.log(product));
+//products.forEach(product => console.log(product));
+
+const letterList = ["F","A","C","B","D","E"];
+
+let sortArr = letterList.toSorted();
+
+console.log(sortArr);
+
