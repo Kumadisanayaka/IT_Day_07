@@ -107,7 +107,31 @@ let student = studentList.find(student => student.id === "S002");
 console.log(student);
 */
 
-fetch("/customer.json").then(res => res.json()).then(data=>{
+fetch("https://fakestoreapi.com/products").then(res => res.json()).then(data=>{
     console.log(data);
 })
 
+let tblProductList = document.getElementById("tblStoreProduct");
+
+let body = "";
+
+data.forEach(element => {
+    body+= `
+        <tr>
+            <td>${element.category}</td>
+            <td>${element.description}</td>
+            <td>${element.id}</td>
+            <td>${element.image}</td>
+            <td>${element.price}</td>
+            <td>
+                ${element.rating}
+                <td>${element.count}</td>
+                <td>${element.rate}</td>
+            </td>
+            <td>${element.title}</td>
+        </tr>
+    
+    `
+});
+
+tblStoreProduct.innerHTML=body;
