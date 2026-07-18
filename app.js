@@ -1,3 +1,4 @@
+/*
 const customerList = [];
 
 customerList.push(1);
@@ -25,7 +26,7 @@ function productFilter(product) {
 console.log(inStockProduct);
 
 //JS Functions
-/*
+
 //step 01
 function getSum(num1, num2){
     return num1+num2;
@@ -91,7 +92,7 @@ let newSalary = employeeSalary.map(salary => salary * 2);
 
 console.log(newSalary);
 
-*/
+
 
 //find student
 
@@ -101,8 +102,8 @@ const studentList = [
     { id: "S003", name: "Jagath" },
     { id: "S004", name: "Samitha" }];
 
-let student = studentList.find(student => student.id==="S002");
+let student = studentList.find(student => student.id === "S002");
 
 console.log(student);
-
+*/
 
