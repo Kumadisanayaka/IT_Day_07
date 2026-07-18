@@ -25,5 +25,46 @@ function productFilter(product){
 console.log(inStockProduct);
 
 //JS Functions
+/*
+//step 01
+function getSum(num1, num2){
+    return num1+num2;
+}
+
+console.log(getSum(10,20));
 
 
+//step 2
+
+let getSum = function(num1, num2){
+    return num1+num2;
+}
+
+console.log(getSum(25,50));
+
+
+//step 3
+
+let getSum = (num1, num2) => {
+    return num1+num2;
+}
+
+console.log(getSum(15,10));
+
+
+
+//step 4
+
+let sample = textValue =>{
+    return textValue;
+}
+
+console.log(sample("Hiiiii"));
+
+
+//step 5
+
+let sample = textValue => textValue;
+
+console.log(sample("Hi2"));
+*/
