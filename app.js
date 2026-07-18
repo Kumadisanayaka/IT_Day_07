@@ -67,15 +67,27 @@ console.log(sample("Hiiiii"));
 let sample = textValue => textValue;
 
 console.log(sample("Hi2"));
-*/
+
 
 //for Each Loop
 
 //products.forEach(product => console.log(product));
+
+//toSorted Function
 
 const letterList = ["F","A","C","B","D","E"];
 
 let sortArr = letterList.toSorted();
 
 console.log(sortArr);
+
+*/
+
+//Array mapping
+
+const employeeSalary = [75000,25000,50500,65000,81000,36000];
+
+let newSalary = employeeSalary.map(salary => salary * 2);
+
+console.log(newSalary);
 
