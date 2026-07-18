@@ -68,3 +68,7 @@ let sample = textValue => textValue;
 
 console.log(sample("Hi2"));
 */
+
+//for Each Loop
+
+products.forEach(product => console.log(product));
